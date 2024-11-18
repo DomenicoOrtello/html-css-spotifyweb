@@ -244,7 +244,7 @@ main > .upgrade {
 }
 
 /* footer */
-/* se metto position:fixed con right e left 0, non si vede */
+
 footer {
     background-color: #282828;
     height: 80px;
@@ -464,10 +464,7 @@ main button:hover {
 /* media queries */
 
 @media screen and (max-width: 992px) and (min-width: 769px) {
-    /* main {
-        max-width: 100%;
-        margin: 0 auto;
-    } */
+  
     .recently-played {
         display: flex;
         justify-content: center;
@@ -511,7 +508,7 @@ main button:hover {
         padding-bottom: 0;
     }
 }
-/* se metto max-width 0 non funziona */
+
 @media screen and (max-width: 576px) and (min-width: 0px) {
     .none {
         display: none;
