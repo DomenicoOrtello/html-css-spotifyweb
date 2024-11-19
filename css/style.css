@@ -14,7 +14,7 @@ body {
     font-style: normal;
 }
 
-/* general */
+/* GENERAL */
 .flex {
     display: flex;
 }
@@ -63,8 +63,8 @@ li, h3 {
     font-size: 0.7rem;
 }
 
-/* header */
-/* se metto all'header height: calc(100vh - 80px - footer), l'header esce */
+/* HEADER */
+
 header {
     width: 250px;
     height: calc(100vh - 80px);
@@ -172,8 +172,16 @@ header {
     background-color: #adff2f;
 }
 
-/* main */
-/* perché lo vedo vuoto bianco sotto e che unità di misura metto per width per main e top main*/
+.grey.none {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+/* MAIN */
+
 .central-main {
     overflow-x: auto;
     overflow-y: auto;
@@ -182,7 +190,7 @@ header {
     height: calc(100vh - 160px);
 }
 
-/* se metto height in px, si sballa tutto, così come se uso fixed */
+
 main {
     width: calc(100% - 250px);
 }
@@ -243,7 +251,7 @@ main > .upgrade {
     font-size: 0.9rem;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
     background-color: #282828;
@@ -370,7 +378,7 @@ footer i {
     font-size: 0.7rem;
 }
 
-/* hover */
+/* HOVER */
 
 .song > .hover {
     display: none;
@@ -461,7 +469,7 @@ main button:hover {
     opacity: 0;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) and (min-width: 769px) {
   
@@ -543,3 +551,4 @@ main button:hover {
     .folder-icon {
         margin: 0;
     }
+}
